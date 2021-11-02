@@ -16,8 +16,8 @@ const prodConfig ={
                 './MarketingApp': './src/bootstrap'
             },
             shared: packageJson.dependencies
-        })
-    ]
+        }),
+    ],
 };
 
 module.exports = merge(commonConfig,prodConfig);
